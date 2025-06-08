@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "title": "Healthy diet",
+    "description": "Healthy diet is the best ever guide to attain a maximum satisfaction.",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione aliquam recusandae omnis sequi quaerat magnam nostrum nemo nihil quibusdam. Nihil ullam eveniet deserunt iure, quibusdam quia ab obcaecati quo. Quos qui a deserunt quidem fugiat ex eaque odit molestiae impedit possimus inventore quasi maiores, praesentium sunt dolorum amet, ducimus minima nobis! Aperiam similique sapiente, ipsum, cupiditate dolorum aspernatur, sit quod ex saepe quisquam mollitia qui assumenda nemo placeat facilis obcaecati. Eius, explicabo iusto. Sunt sequi non ab numquam qui id perspiciatis veritatis quidem. Voluptatum id veniam eum eius aut temporibus porro nisi, nihil omnis commodi iusto ipsam dolorem totam minima itaque a similique molestias architecto repudiandae, earum aliquid nemo hic at? Excepturi, magnam rem pariatur nisi aliquam sit quam incidunt ducimus ipsa, quaerat aut ratione totam! Vitae ratione illum quisquam architecto illo maxime voluptatum consequatur tempora possimus sapiente! Consequatur quo quisquam quasi corporis ullam sequi neque quis aliquid nam temporibus, nihil similique in, aliquam explicabo voluptas. Id facilis ex quos debitis numquam non! Maiores, quam possimus! Rem non neque dicta molestias? Veniam sit excepturi totam, beatae eius consequatur soluta. Nisi culpa, voluptates nesciunt nulla eveniet vero, id aliquid pariatur maiores accusantium velit odio ipsa aut obcaecati a porro exercitationem.",
+    "author": "Garba Yakubu",
+    "slug": "how-to-loss-weight",
+    "date": "5-06-2025",
+    "image": "/glr3.jpg",
+    "tags": ["fitness", "wellness"]
+  },
+  {
+    "id": "2",
+    "title": "10 tips to loss weight easily",
+    "description": "Healthy diet is the best ever guide to attain a maximum satisfaction.",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione aliquam recusandae omnis sequi quaerat magnam nostrum nemo nihil quibusdam. Nihil ullam eveniet deserunt iure, quibusdam quia ab obcaecati quo. Quos qui a deserunt quidem fugiat ex eaque odit molestiae impedit possimus inventore quasi maiores, praesentium sunt dolorum amet, ducimus minima nobis! Aperiam similique sapiente, ipsum, cupiditate dolorum aspernatur, sit quod ex saepe quisquam mollitia qui assumenda nemo placeat facilis obcaecati. Eius, explicabo iusto. Sunt sequi non ab numquam qui id perspiciatis veritatis quidem. Voluptatum id veniam eum eius aut temporibus porro nisi, nihil omnis commodi iusto ipsam dolorem totam minima itaque a similique molestias architecto repudiandae, earum aliquid nemo hic at? Excepturi, magnam rem pariatur nisi aliquam sit quam incidunt ducimus ipsa, quaerat aut ratione totam! Vitae ratione illum quisquam architecto illo maxime voluptatum consequatur tempora possimus sapiente! Consequatur quo quisquam quasi corporis ullam sequi neque quis aliquid nam temporibus, nihil similique in, aliquam explicabo voluptas. Id facilis ex quos debitis numquam non! Maiores, quam possimus! Rem non neque dicta molestias? Veniam sit excepturi totam, beatae eius consequatur soluta. Nisi culpa, voluptates nesciunt nulla eveniet vero, id aliquid pariatur maiores accusantium velit odio ipsa aut obcaecati a porro exercitationem.",
+    "author": "Garba Yakubu",
+    "slug": "loss-weight",
+    "date": "5-06-2025",
+    "image": "/food1.jpg",
+    "tags": ["fitness", "health"]
+  },
+  {
+    "id": "3",
+    "title": "How to eat a healthy food for body wellness",
+    "description": "Healthy diet is the best ever guide to attain a maximum satisfaction.",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione aliquam recusandae omnis sequi quaerat magnam nostrum nemo nihil quibusdam. Nihil ullam eveniet deserunt iure, quibusdam quia ab obcaecati quo. Quos qui a deserunt quidem fugiat ex eaque odit molestiae impedit possimus inventore quasi maiores, praesentium sunt dolorum amet, ducimus minima nobis! Aperiam similique sapiente, ipsum, cupiditate dolorum aspernatur, sit quod ex saepe quisquam mollitia qui assumenda nemo placeat facilis obcaecati. Eius, explicabo iusto. Sunt sequi non ab numquam qui id perspiciatis veritatis quidem. Voluptatum id veniam eum eius aut temporibus porro nisi, nihil omnis commodi iusto ipsam dolorem totam minima itaque a similique molestias architecto repudiandae, earum aliquid nemo hic at? Excepturi, magnam rem pariatur nisi aliquam sit quam incidunt ducimus ipsa, quaerat aut ratione totam! Vitae ratione illum quisquam architecto illo maxime voluptatum consequatur tempora possimus sapiente! Consequatur quo quisquam quasi corporis ullam sequi neque quis aliquid nam temporibus, nihil similique in, aliquam explicabo voluptas. Id facilis ex quos debitis numquam non! Maiores, quam possimus! Rem non neque dicta molestias? Veniam sit excepturi totam, beatae eius consequatur soluta. Nisi culpa, voluptates nesciunt nulla eveniet vero, id aliquid pariatur maiores accusantium velit odio ipsa aut obcaecati a porro exercitationem.",
+    "author": "Garba Yakubu",
+    "slug": "body-wellness",
+    "date": "5-06-2025",
+    "image": "/food2.jpg",
+    "tags": ["fat loss", "food"]
+  }
+]
