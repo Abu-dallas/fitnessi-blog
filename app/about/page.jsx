@@ -1,14 +1,10 @@
-"use client";
-import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
-import { useState } from "react";
+import HeaderWrapper from "@/components/HeaderWrapper";
+import React from "react";
 
 function About() {
-  const [Open, setOpen] = useState(false);
   return (
     <div>
-      <Navbar setOpen={setOpen} />
-      <Sidebar setOpen={setOpen} Open={Open} />
+      <HeaderWrapper />
     </div>
   );
 }

@@ -1,18 +1,23 @@
-"use client";
-import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
-import { useState } from "react";
 import posts from "@/database/db.json";
 import Image from "next/image";
 import Link from "next/link";
+import HeaderWrapper from "@/components/HeaderWrapper";
+
+export const metadata = {
+  title: "Articles - Fitnessi",
+  description:
+    "Lisez nos articles sur la santé, le fitness et le bien-être pour rester en forme chaque jour.",
+};
 
 function Blogs() {
-  const [Open, setOpen] = useState(false);
   return (
     <div>
-      <Navbar setOpen={setOpen} />
-      <Sidebar setOpen={setOpen} Open={Open} />
-      <div className="w-full flex items-center justify-center mt-12">
+      <HeaderWrapper />
+      <div className="w-full flex items-center justify-center mt-18 flex-col">
+        <p className="text-slates-800 font-semibold text-xl px-4 py-6">
+          Lisez nos articles sur la santé, le fitness et le bien-être pour
+          rester en forme chaque jour.
+        </p>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 px-2 max-sm:my-12 lg:w-[70%]">
           {posts.map((item, index) => (
             <Link
@@ -22,11 +27,7 @@ function Blogs() {
             >
               <div className="flex-1 flex py-4 justify-center flex-col gap-3">
                 <span className="font-bold text-sm text-slate-500">
-                  {item.date.toLocaleString("en-US", {
-                    day: "numeric",
-                    weekday: "long",
-                    year: "numeric",
-                  })}
+                  {item.date}
                 </span>
                 <h1 className="text-slate-800 font-bold text-xl">
                   {item.title}
