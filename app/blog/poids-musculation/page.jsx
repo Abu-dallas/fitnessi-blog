@@ -17,7 +17,7 @@ function BlogPost() {
           by Garba Yakubu
         </p>
         <p className="italic underline mb-6 text-sm text-slate-600 font-semibold">
-          10-June-2025
+          10-juin-2025
         </p>
         <div className="pb-4">
           <Image
@@ -409,10 +409,22 @@ function BlogPost() {
             discipline accessible à tous, que tu sois chez toi avec des haltères
             ou en salle entouré de machines.
           </p>
-          <p className="text-md text-slate-800 pb-2">
+          <p className="text-md text-slate-800 pb-8">
             Alors, prêt à te lancer ? Prêt à soulever, transpirer et te dépasser
             pour devenir la meilleure version de toi-même ? Commence dès
             aujourd’hui, et ton futur toi te remerciera.
+          </p>
+          <p className="text-lg mb-4">
+            Vous souhaitez en savoir plus sur l'utilisation des barres et des
+            poids pour développer votre masse musculaire ? Consultez notre
+            article dédié à ce sujet :{" "}
+            <a
+              href="/blog/poids-barre-musculation"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Poids et barre en musculation : techniques et conseils
+            </a>
+            .
           </p>
         </div>
       </div>
