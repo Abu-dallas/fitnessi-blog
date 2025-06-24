@@ -23,38 +23,31 @@ function BlogPost4() {
         </p>
         <div className="pb-4">
           <Image
-            src="/dumbbell/dumbbell1.jpg"
-            alt="Rowing Haltère trainning"
+            src="/fit/benchpress.jpg"
+            alt="trainning Machines de Musculation"
             width={2000}
             height={2000}
             className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
           />
           <span className="flex w-full divide-x divide-slate-400 items-center my-4  justify-center ">
             <a
-              href="#rowing"
+              href="#machine"
               className=" px-3 py-0 text-cyan-700 font-semibold"
             >
-              Rowing Haltère
+              Machine de Musculation
+            </a>
+            <a href="#types" className=" px-3 py-0 text-cyan-700 font-semibold">
+              Types
             </a>
             <a
-              href="#Erreurs"
+              href="#conclusion"
               className=" px-3 py-0 text-cyan-700 font-semibold"
             >
-              Erreurs
-            </a>
-            <a
-              href="#Avantages"
-              className=" px-3 py-0 text-cyan-700 font-semibold"
-            >
-              Avantages
-            </a>
-
-            <a href="#FAQ" className="px-4 text-cyan-700 font-semibold">
-              FAQ
+              Conclusion
             </a>
           </span>
         </div>
-        <div className=" text-lg  py-10">
+        <div className=" text-lg py-10">
           <p className="mb-6 text-md font-bold">
             Les <strong>machines de musculation</strong> occupent aujourd'hui
             une place essentielle dans l’univers du fitness, aussi bien dans les
@@ -72,7 +65,7 @@ function BlogPost4() {
             tous les profils d’utilisateurs.
           </p>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4">
+          <h2 id="machine" className="text-2xl font-semibold mt-10 mb-4">
             Pourquoi Utiliser une Machine de Musculation ?
           </h2>
           <p className="mb-4 text-lg">
@@ -119,20 +112,22 @@ function BlogPost4() {
             </li>
           </ul>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4">
+          <h2 id="types" className="text-2xl font-semibold mt-10 mb-4">
             Les Principaux Types de Machines de Musculation
           </h2>
-          <img
-            src="grl1.jpg"
-            alt="grl1.jpg"
-            className="rounded-xl shadow-md mb-6"
-          />
 
           <div className="text-lg">
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className="mt-5 text-xl font-semibold">
                 1. Presse à jambes (Leg Press)
               </h3>
+              <Image
+                src="/fit/legpress.gif"
+                alt="trainning Machines de Musculation"
+                width={2000}
+                height={2000}
+                className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
+              />
               <p>
                 La presse à jambes est l’une des machines les plus populaires
                 pour le travail des jambes. Elle sollicite principalement les
@@ -156,9 +151,16 @@ function BlogPost4() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className=" mt-5 text-xl font-semibold">
                 2. Poulie haute (Lat Pulldown)
               </h3>
+              <Image
+                src="/fit/pullpress.jpg"
+                alt=" Machines de Musculation"
+                width={2000}
+                height={2000}
+                className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
+              />
               <p>
                 La haute , ou "Lat Pulldown", est une machine ciblant le haut du
                 dos, principalement le grand dorsal, les rhomboïdes et les
@@ -180,7 +182,16 @@ function BlogPost4() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold">3. Pec Deck (Butterfly)</h3>
+              <h3 className=" mt-5 text-xl font-semibold">
+                3. Pec Deck (Butterfly)
+              </h3>
+              <Image
+                src="/fit/pecdec.gif"
+                alt="trainning Machines de Musculation"
+                width={2000}
+                height={2000}
+                className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
+              />
               <p>
                 Le Pec Deck , souvent appelé « butterfly », est conçu pour
                 isoler les pectoraux de manière très précise. En effectuant un
@@ -201,9 +212,16 @@ function BlogPost4() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className=" mt-5 text-xl font-semibold">
                 4. Presse à épaules (Shoulder Press)
               </h3>
+              <Image
+                src="/fit/shoulderpress.gif"
+                alt="Presse à épaules"
+                width={2000}
+                height={2000}
+                className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
+              />
               <p>
                 La presse à épaules simule un mouvement de développé militaire,
                 mais avec plus de sécurité et de stabilité. Elle cible
@@ -223,7 +241,16 @@ function BlogPost4() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold">5. Machine à abdominaux</h3>
+              <h3 className="mt-5 text-xl font-semibold">
+                5. Machine à abdominaux
+              </h3>
+              <Image
+                src="/fit/abdominal.gif"
+                alt="trainning Machines de Musculation"
+                width={2000}
+                height={2000}
+                className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
+              />
               <p>
                 La machine à abdominaux permet de travailler la sangle
                 abdominale de manière ciblée et sécurisée. L’utilisateur est
@@ -243,7 +270,7 @@ function BlogPost4() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className="mt-5 text-xl font-semibold">
                 6. Leg Curl / Leg Extension
               </h3>
               <p>
@@ -265,7 +292,7 @@ function BlogPost4() {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold">
+              <h3 className="pt-5 text-xl font-semibold">
                 7. Machine à adducteurs/abducteurs
               </h3>
               <p>
@@ -444,7 +471,10 @@ function BlogPost4() {
             votre aisance.
           </p>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4"> Conclusion</h2>
+          <h2 id="conclusion" className="text-2xl font-semibold mt-10 mb-4">
+            {" "}
+            Conclusion
+          </h2>
 
           <p className="mb-6">
             Les <strong>machines de musculation</strong> représentent un
