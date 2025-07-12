@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: " Rowing Haltère : Exercice complet pour muscler le dos",
@@ -403,6 +404,17 @@ function BlogPost3() {
           </li>
         </ul>
       </div>
+
+      <p className="mt-20">
+        Pour comparer, lisez notre article sur la{" "}
+        <Link
+          className="text-blue-500"
+          href="https://www.fitnessi.top/blog/machine-de-musculation"
+        >
+          machine de musculation
+        </Link>{" "}
+        pour le dos et ses avantages par rapport aux haltères.
+      </p>
     </div>
   );
 }

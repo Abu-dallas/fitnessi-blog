@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Collagène et Prise de Poids : Mythe ou Réalité ?",
@@ -508,6 +509,16 @@ function BlogPost7() {
             passionnant et souvent mal compris !
           </p>
         </div>
+        <p className="mt-20">
+          De la même manière que les ovules hormonaux, le{" "}
+          <Link
+            className="text-blue-500"
+            href="https://www.fitnessi.top/blog/colpotrophine-ovule-et-prise-de-poids"
+          >
+            Colpotrophine peut entraîner une prise de poids
+          </Link>
+          .
+        </p>
       </div>
     </div>
   );

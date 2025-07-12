@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title:
@@ -366,14 +367,25 @@ function BlogPost2() {
 
           <p className="text-lg mt-4">
             Pour mieux comprendre les bases et les bienfaits du{" "}
-            <a
+            <Link
               href="/blog/poids-musculation"
               className="text-blue-600 underline hover:text-blue-800 transition"
             >
               poids musculation
-            </a>
+            </Link>
             , n'hésitez pas à consulter notre article complet à ce sujet. Il
             vous aidera à bien démarrer ou à renforcer vos connaissances.
+          </p>
+
+          <p>
+            Vous pouvez également consulter notre guide sur les{" "}
+            <Link
+              className="text-blue-500"
+              href="https://www.fitnessi.top/blog/machine-de-musculation"
+            >
+              machines de musculation
+            </Link>
+            .
           </p>
         </div>
       </div>

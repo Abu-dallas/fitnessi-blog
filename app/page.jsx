@@ -1,6 +1,7 @@
 import posts from "@/database/db.json";
 import Image from "next/image";
 import Link from "next/link";
+import HeaderWrapper from "@/components/HeaderWrapper";
 
 export const metadata = {
   title: "Home - Fitnessi",
@@ -11,6 +12,7 @@ export const metadata = {
 function HomePage() {
   return (
     <div>
+      <HeaderWrapper />
       <div className="w-full flex items-center justify-center mt-18 flex-col">
         <p className="text-slates-800 font-semibold text-xl px-4 py-6">
           Lisez nos articles sur la santé, le fitness et le bien-être pour

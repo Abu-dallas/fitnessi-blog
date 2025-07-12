@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Poids Musculation : Guide Complet pour Gagner en Muscle",
@@ -418,13 +419,21 @@ function BlogPost() {
             Vous souhaitez en savoir plus sur l'utilisation des barres et des
             poids pour développer votre masse musculaire ? Consultez notre
             article dédié à ce sujet :{" "}
-            <a
+            <Link
               href="/blog/poids-barre-musculation"
               className="text-blue-600 underline hover:text-blue-800 transition"
             >
               Poids et barre en musculation : techniques et conseils
-            </a>
+            </Link>
             .
+          </p>
+
+          <p>
+            Certains préfèrent compléter leur programme avec des{" "}
+            <Link href="https://www.fitnessi.top/blog/machine-de-musculation">
+              machines de musculation
+            </Link>{" "}
+            pour cibler différents groupes musculaires.
           </p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Catégorie Poids Boxe : Guide Complet des Divisions Officielles",
@@ -451,6 +452,17 @@ function BlogPost10() {
               responsable et durable de la boxe.
             </p>
           </section>
+
+          <p mt-20>
+            Les boxeurs peuvent aussi bénéficier des{" "}
+            <Link
+              className="text-blue-500"
+              href="https://www.fitnessi.top/blog/poids-musculation"
+            >
+              poids en musculation
+            </Link>{" "}
+            pour développer leur force et puissance.
+          </p>
         </div>
       </div>
     </div>

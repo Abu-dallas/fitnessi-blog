@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Fleurs de Bach et Perte de Poids : Équilibrez vos Émotions",
@@ -423,6 +424,16 @@ function BlogPost6() {
           mieux-être durable.
         </p>
       </div>
+      <p>
+        Les{" "}
+        <Link
+          className="text-blue-500"
+          href="https://www.fitnessi.top/blog/fleurs-de-bach-perte-de-poids-en-phamacie"
+        >
+          fleurs de Bach disponibles en pharmacie
+        </Link>{" "}
+        offrent un accès facile à ce remède naturel.
+      </p>
     </div>
   );
 }

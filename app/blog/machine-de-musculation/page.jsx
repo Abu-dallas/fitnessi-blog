@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title:
@@ -493,6 +494,27 @@ function BlogPost4() {
             budget, objectifs).
           </p>
         </div>
+        <p className="mt-20">
+          Un appareil souvent présent dans les salles est le{" "}
+          <Link
+            className="text-blue-500"
+            href="https://www.fitnessi.top/blog/banc-de-musculation"
+          >
+            banc de musculation
+          </Link>
+          , utilisé pour plusieurs exercices.
+        </p>
+
+        <p>
+          Pour muscler le dos, le{" "}
+          <Link
+            className="text-blue-500"
+            href="https://www.fitnessi.top/blog/rowing-haltere"
+          >
+            rowing à l'haltère
+          </Link>{" "}
+          reste une excellente alternative aux machines.
+        </p>
       </div>
     </div>
   );

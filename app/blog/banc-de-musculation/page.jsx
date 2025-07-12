@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Banc de Musculation : Guide Complet 2025 pour Bien Choisir",
@@ -426,6 +427,22 @@ function BlogPost5() {
               En bref, investir dans un banc de musculation de qualité, c’est
               investir dans votre santé, votre bien-être, et votre progression
               sportive. À vous de jouer !
+            </p>
+
+            <p>
+              Pour un entraînement complet, découvrez aussi les{" "}
+              <Link href="https://www.fitnessi.top/blog/machine-de-musculation">
+                machines de musculation
+              </Link>{" "}
+              adaptées à tous les niveaux.
+            </p>
+
+            <p>
+              Ce banc peut être combiné avec des{" "}
+              <Link href="https://www.fitnessi.top/blog/poids-musculation">
+                poids pour la musculation
+              </Link>{" "}
+              afin d'intensifier les exercices.
             </p>
           </section>
         </div>
