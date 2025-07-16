@@ -453,7 +453,7 @@ function BlogPost10() {
             </p>
           </section>
 
-          <p mt-20>
+          <p className="mt-20">
             Les boxeurs peuvent aussi bénéficier des{" "}
             <Link
               className="text-blue-500"

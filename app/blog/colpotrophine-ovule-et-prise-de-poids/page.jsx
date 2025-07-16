@@ -17,12 +17,12 @@ function BlogPost11() {
           by Garba Yakubu
         </p>
         <p className="italic underline mb-6 text-sm text-slate-600 font-semibold">
-          2-july-2025
+          2-juillet-2025
         </p>
         <div className="pb-4">
           <Image
-            src="/barbell/barbell3.jpg"
-            alt="Poids Barre Musculation cover image"
+            src="/ovule1.png"
+            alt="Colpotrophine Ovule et Prise de Poids"
             width={2000}
             height={2000}
             className="w-full h-[350px]  md:w-full md:h-[500px] rounded-lg"
@@ -319,7 +319,22 @@ function BlogPost11() {
               </p>
             </div>
           </section>
+          <p className="mt-20">
+            Un bon équipement vestimentaire améliore aussi votre performance
+            avec des{" "}
+            <a href="https://www.fitnessi.top/blog/poids-barre-musculation">
+              poids avec barre
+            </a>
+            .
+          </p>
         </div>
+        <Image
+          src="/ovule3.png"
+          alt="Colpotrophine Ovule et Prise de Poids"
+          width={2000}
+          height={2000}
+          className="w-full h-[350px] mt-8  md:w-full md:h-[500px] rounded-lg"
+        />
       </div>
     </div>
   );
