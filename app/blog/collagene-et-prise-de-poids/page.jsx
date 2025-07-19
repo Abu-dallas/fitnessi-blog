@@ -2,9 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Collagène et Prise de Poids : Mythe ou Réalité ?",
+  title:
+    "Collagène et Prise de Poids : Fait-il Grossir ? Mythe ou Réalité ? (2025)",
   description:
-    "Le collagène fait-il grossir ? Découvrez ce que disent les études, ses effets sur le poids, la silhouette et comment bien le consommer sans risque.",
+    "Le collagène provoque-t-il une prise de poids ? Études, explications scientifiques et réponses claires.",
 };
 
 function BlogPost7() {
@@ -520,6 +521,41 @@ function BlogPost7() {
           .
         </p>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Le collagène fait-il grossir ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Non, le collagène en lui-même ne fait pas grossir. Il s'agit d'une protéine qui peut contribuer à la santé de la peau, des articulations et des muscles, mais il ne contient pas de propriétés spécifiques favorisant une prise de poids.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Pourquoi certaines personnes pensent que le collagène fait grossir ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Certains associent le collagène à une prise de poids en raison d'effets secondaires perçus, comme une meilleure rétention d'eau ou une augmentation de l'appétit. Cependant, aucune preuve scientifique ne confirme que le collagène provoque directement une prise de poids.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Le collagène peut-il aider à prendre du muscle ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, dans le cadre d'une alimentation équilibrée et d'un entraînement régulier, le collagène peut contribuer à la reconstruction musculaire grâce à son apport en acides aminés comme la glycine et la proline.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

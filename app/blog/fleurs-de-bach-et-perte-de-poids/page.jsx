@@ -2,9 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Fleurs de Bach et Perte de Poids : Équilibrez vos Émotions",
+  title:
+    "Fleurs de Bach et Perte de Poids : Solution Naturelle et Émotionnelle",
   description:
-    "Découvrez comment les fleurs de Bach aident à la perte de poids en agissant sur les émotions. Une approche naturelle, douce et efficace pour mincir durablement.",
+    "Fleurs de Bach et Perte de Poids : gérez vos émotions pour mieux mincir. Découvrez cette méthode naturelle et efficace pour une perte de poids durable.",
 };
 
 function BlogPost6() {
@@ -434,6 +435,42 @@ function BlogPost6() {
         </Link>{" "}
         offrent un accès facile à ce remède naturel.
       </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Les fleurs de Bach peuvent-elles aider à perdre du poids ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, les fleurs de Bach peuvent aider indirectement à perdre du poids en agissant sur les émotions telles que le stress, la frustration ou les compulsions alimentaires. Elles ne brûlent pas les graisses mais aident à retrouver un équilibre émotionnel favorable à une meilleure hygiène de vie.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quelles fleurs de Bach sont recommandées pour la perte de poids ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Certaines fleurs comme Cherry Plum (pour le contrôle), Crab Apple (pour l’image corporelle) et Walnut (pour le changement) sont souvent utilisées dans le cadre d’une démarche de perte de poids émotionnelle.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Comment utiliser les fleurs de Bach pour mincir ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les fleurs de Bach se prennent généralement sous forme de gouttes, plusieurs fois par jour. Il est conseillé de consulter un conseiller agréé pour choisir les élixirs adaptés à votre profil émotionnel et renforcer votre motivation dans votre parcours minceur.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: " Colpotrophine Ovule et Prise de Poids : Effets, Risques et Vérités",
+  title: "Colpotrophine Ovule et Prise de Poids : Effets Réels et Conseils",
   description:
-    "Découvrez si Colpotrophine ovule provoque une prise de poids. Explication des effets secondaires, rôle du promestriène, et conseils pour la ménopause.",
+    "Colpotrophine Ovule et Prise de Poids : découvrez les effets secondaires, le rôle du promestriène et nos conseils pour la ménopause. Info claire et vérifiée.",
 };
 
 function BlogPost11() {
@@ -336,6 +336,41 @@ function BlogPost11() {
           className="w-full h-[350px] mt-8  md:w-full md:h-[500px] rounded-lg"
         />
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "La Colpotrophine ovule fait-elle grossir ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "La Colpotrophine ovule (promestriène) n’est pas connue pour provoquer une prise de poids significative. C’est un traitement local pour les symptômes de la ménopause et il agit principalement sur les tissus vaginaux, sans effet systémique majeur sur le métabolisme ou l'appétit.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quels sont les effets secondaires de la Colpotrophine ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les effets secondaires possibles incluent des démangeaisons, des brûlures locales ou des pertes vaginales. Une prise de poids est très rare et n’est pas directement attribuée à ce traitement local.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Le promestriène est-il un traitement hormonal ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, le promestriène est un dérivé œstrogénique utilisé localement. Toutefois, il n’a pas d’action systémique comme les traitements hormonaux par voie orale, ce qui limite ses effets secondaires généraux comme la prise de poids.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

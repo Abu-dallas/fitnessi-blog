@@ -2,17 +2,54 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Bracelet Ultrason Perte de Poids : Avis, Fonctionnement & Vérité",
+  title:
+    "Bracelet Ultrason Perte de Poids : Arnaque ou Solution Efficace ? (2025)",
   description:
-    "Découvrez notre avis complet sur le bracelet ultrason pour maigrir. Fonctionne-t-il vraiment ? Promesses, témoignages, efficacité, arnaque ou vérité ?",
+    "Découvrez notre avis sur le bracelet ultrason minceur. Fonctionne-t-il vraiment ? Témoignages et efficacité.",
 };
 
 function BlogPost9() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Le bracelet ultrason aide-t-il vraiment à perdre du poids ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Les résultats varient selon les utilisateurs. Certains témoignent d’une perte de poids, mais aucune preuve scientifique solide ne confirme son efficacité.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Le bracelet ultrason est-il une arnaque ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Certains experts considèrent ces bracelets comme inefficaces, tandis que d’autres pensent qu’ils peuvent avoir un effet placebo. Il est important d'être prudent.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Quels sont les risques du bracelet minceur à ultrasons ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Aucun effet secondaire grave n’a été largement signalé, mais il est conseillé de consulter un professionnel de santé avant utilisation.",
+        },
+      },
+    ],
+  };
+
   return (
     <div className="w-full md:flex md:flex-col items-center justify-center">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
-          Bracelet Ultrason Perte de Poids : Avis, Fonctionnement, Efficacité
+          Bracelet Ultrason Perte de Poids : Arnaque ou Solution Efficace ?
+          (2025)
         </h1>
         <p className="italic underline text-sm text-slate-600 font-semibold">
           by Garba Yakubu

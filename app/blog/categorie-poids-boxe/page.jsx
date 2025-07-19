@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Catégorie Poids Boxe : Guide Complet des Divisions Officielles",
+  title: "Catégorie Poids Boxe : Le Guide Simple et Officiel (2025)",
   description:
-    "Découvrez toutes les catégories de poids en boxe amateur et professionnelle. Un guide essentiel pour comprendre les divisions, la pesée et leur rôle stratégique.",
+    "Apprenez toutes les catégories de poids en boxe : amateur et pro. Tableau, explications faciles pour débutants.",
 };
 
 function BlogPost10() {
@@ -12,7 +12,7 @@ function BlogPost10() {
     <div className="w-full md:flex md:flex-col items-center justify-center">
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
-          Catégorie Poids Boxe : Comprendre les Divisions de Poids
+          Catégorie Poids Boxe : Le Guide Simple et Officiel (2025)
         </h1>
         <p className="italic underline text-sm text-slate-600 font-semibold">
           by Garba Yakubu
@@ -465,6 +465,41 @@ function BlogPost10() {
           </p>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quelles sont les catégories de poids en boxe professionnelle ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "En boxe professionnelle, les catégories vont du poids pailles (ou mini-mouches) aux poids lourds. Chaque catégorie a une limite de poids définie, généralement exprimée en kilogrammes ou en livres.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quelle est la différence entre les catégories de poids en boxe amateur et professionnelle ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les catégories de poids en boxe amateur sont souvent plus nombreuses et légèrement différentes de celles en boxe professionnelle. Elles varient aussi selon les fédérations et prennent en compte l'âge et le niveau du boxeur.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Comment savoir à quelle catégorie de poids j'appartiens ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Il suffit de vous peser avec une balance précise, puis de comparer votre poids avec un tableau officiel des catégories. Ce tableau vous indiquera à quelle catégorie vous correspondez, en amateur ou en pro.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

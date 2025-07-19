@@ -2,10 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title:
-    "Machine de Musculation : Le Guide Complet pour Bien Choisir et Utiliser",
+  title: "Machines de Musculation : Choix & Utilisation Idéale (2025)",
   description:
-    "Découvrez tout ce qu’il faut savoir sur les machines de musculation : types, utilisations, conseils pour débutants et équipements recommandés pour une salle de sport efficace à la maison ou en salle.",
+    "Découvre les meilleures machines selon ton objectif. Comparatif, conseils d’usage, erreurs fréquentes à éviter.",
 };
 
 function BlogPost4() {
@@ -13,8 +12,7 @@ function BlogPost4() {
     <div className="w-full md:flex md:flex-col items-center justify-center">
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
-          Machine de Musculation : Le Guide Complet pour Bien Choisir et
-          Utiliser
+          Machines de Musculation : Choix & Utilisation Idéale (2025)
         </h1>
         <p className="italic underline text-sm text-slate-600 font-semibold">
           by Garba Yakubu
@@ -516,6 +514,41 @@ function BlogPost4() {
           reste une excellente alternative aux machines.
         </p>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quelle est la meilleure machine de musculation pour débuter ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Pour débuter, les machines guidées comme la presse à jambes, la poulie haute ou la chest press sont idéales. Elles offrent sécurité, bon alignement corporel et réduisent le risque de blessure.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Faut-il privilégier les machines ou les poids libres ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les machines sont parfaites pour isoler un muscle et apprendre le bon geste, tandis que les poids libres activent plus de muscles stabilisateurs. L’idéal est de combiner les deux selon ton niveau et tes objectifs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quelles sont les erreurs à éviter avec les machines de musculation ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les erreurs fréquentes incluent une mauvaise posture, une charge trop lourde, ou un manque de contrôle dans les mouvements. Il est essentiel d’ajuster le siège, de respecter l’amplitude et d’éviter les gestes brusques.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

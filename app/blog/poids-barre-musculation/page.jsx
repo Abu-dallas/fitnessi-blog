@@ -2,10 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title:
-    "Poids Barre Musculation : Guide Complet pour Gagner en Muscle et Force",
+  title: "Poids Barre Musculation : Exos Clés pour Débutant (2025)",
   description:
-    "Découvrez comment utiliser efficacement les poids avec barre pour développer vos muscles, améliorer votre force et structurer votre corps.",
+    "Guide complet : squats, développé couché, soulevé de terre avec barre. Astuces, erreurs, programme de démarrage.",
 };
 
 function BlogPost2() {
@@ -389,6 +388,41 @@ function BlogPost2() {
           </p>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quels sont les exercices de base avec une barre de musculation ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les principaux exercices sont le squat, le développé couché, et le soulevé de terre. Ils sollicitent plusieurs groupes musculaires et sont excellents pour débuter en musculation avec une barre.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quel poids utiliser quand on débute avec une barre ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Commence avec une barre vide ou très légère (entre 10 et 20 kg) pour apprendre la bonne technique. Augmente progressivement en fonction de ta progression et de ton confort d’exécution.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quelles sont les erreurs fréquentes avec les exercices à la barre ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Les erreurs courantes incluent une mauvaise posture, des mouvements non contrôlés, et une charge trop lourde. Il est important d’apprendre les bons gestes avant de charger la barre.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

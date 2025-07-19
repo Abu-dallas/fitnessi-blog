@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: " Rowing Haltère : Exercice complet pour muscler le dos",
+  title: "Rowing Haltère : Technique Parfaite & Dos Musclé (2025)",
   description:
-    "Apprenez à bien exécuter le rowing haltère pour un dos fort, équilibré et sans blessures. Guide, technique et conseils pratiques.",
+    "Apprenez à bien exécuter le rowing haltère. Variantes, erreurs à éviter, conseils pour un dos fort. Programme inclus.",
 };
 
 function BlogPost3() {
@@ -12,7 +12,7 @@ function BlogPost3() {
     <div className="w-full md:flex md:flex-col items-center justify-center">
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
-          Rowing Haltère : Exercice complet pour muscler le dos
+          Rowing Haltère : Technique Parfaite & Dos Musclé (2025)
         </h1>
         <p className="italic underline text-sm text-slate-600 font-semibold">
           by Garba Yakubu
@@ -415,6 +415,42 @@ function BlogPost3() {
         </Link>{" "}
         pour le dos et ses avantages par rapport aux haltères.
       </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quels muscles sont travaillés avec le rowing haltère ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Le rowing haltère cible principalement les muscles du dos, notamment le grand dorsal, les trapèzes, les rhomboïdes et les biceps comme muscles secondaires.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quelle est la bonne position pour faire du rowing haltère ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Il faut garder le dos droit, les abdos engagés, et tirer l’haltère vers les hanches en contractant les omoplates, tout en contrôlant la descente.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Combien de répétitions faut-il faire pour muscler le dos ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Pour développer la masse musculaire, effectuez 3 à 4 séries de 8 à 12 répétitions avec un poids adapté, et augmentez progressivement la charge avec le temps.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

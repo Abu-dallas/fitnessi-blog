@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Poids Musculation : Guide Complet pour Gagner en Muscle",
+  title: "Poids Musculation 2025 : Guide Complet pour Prendre du Muscle",
   description:
-    "Découvre comment utiliser les poids en musculation pour transformer ton corps, que tu sois débutant ou confirmé. Conseils, techniques et résultats garantis.",
+    "Tout sur les poids en musculation : types, conseils, programme débutant, erreurs à éviter. Transforme ton corps dès maintenant.",
 };
 
 function BlogPost() {
@@ -12,7 +12,7 @@ function BlogPost() {
     <div className="w-full md:flex md:flex-col items-center justify-center">
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
-          Poids musculation : Le guide ultime pour se muscler efficacement
+          Poids Musculation 2025 : Guide Complet pour Prendre du Muscle
         </h1>
         <p className="italic underline text-sm text-slate-600 font-semibold">
           by Garba Yakubu
@@ -437,6 +437,41 @@ function BlogPost() {
           </p>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quel type de poids utiliser pour commencer la musculation ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Pour les débutants, il est recommandé d’utiliser des haltères légers ou des poids guidés afin de maîtriser les mouvements et éviter les blessures. Le poids doit permettre de faire 8 à 12 répétitions sans compromettre la forme.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Combien de fois par semaine s’entraîner avec des poids ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Idéalement 3 à 4 fois par semaine, en laissant au moins 48h de repos entre les séances ciblant les mêmes groupes musculaires pour favoriser la récupération et la prise de masse.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quels sont les bénéfices de la musculation avec poids ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "La musculation avec poids permet de développer la masse musculaire, améliorer la force, renforcer les articulations, et favoriser la perte de graisse. Elle aide aussi à améliorer la posture et la santé globale.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

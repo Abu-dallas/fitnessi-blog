@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Vêtement Musculation pour Homme | Confort & Performance",
+  title: "Vêtement Musculation Homme : Style, Confort & Performance (2025)",
   description:
     "Découvrez les meilleurs vêtements musculation pour homme : t-shirts, shorts, pantalons pour allier style, confort et performance à la salle de sport.",
 };
@@ -11,7 +11,7 @@ function BlogPost12() {
     <div className="w-full md:flex md:flex-col items-center justify-center">
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
-          Vêtement Musculation pour Homme : Guide Complet
+          êtement Musculation Homme : Style, Confort & Performance (2025)
         </h1>
         <p className="italic underline text-sm text-slate-600 font-semibold">
           by Garba Yakubu
@@ -433,6 +433,41 @@ function BlogPost12() {
           </ul>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quels vêtements porter pour faire de la musculation ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Il est conseillé de porter un t-shirt respirant, un short ou pantalon souple, et des chaussures stables. Les matières techniques permettent de mieux gérer la transpiration.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Les vêtements de musculation améliorent-ils les performances ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, des vêtements adaptés offrent une meilleure liberté de mouvement, régulent la température et améliorent le confort, ce qui peut optimiser les performances à l’entraînement.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Où acheter des vêtements musculation homme de qualité ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "On peut en trouver chez des marques spécialisées comme Nike, Under Armour, Gymshark ou en pharmacie sportive en ligne. Vérifiez toujours la qualité des tissus et les avis clients.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

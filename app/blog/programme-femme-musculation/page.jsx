@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Programme Musculation Femme : Guide Complet Débutante à Maison",
+  title:
+    "Programme Musculation Femme : Guide Complet Débutante à Maison (2025)",
   description:
     "Découvrez un programme musculation femme simple et efficace à la maison, adapté aux débutantes. Exercices, conseils nutrition et motivation.",
 };
@@ -483,6 +484,41 @@ function BlogPost13() {
           </p>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Est-il possible de se muscler efficacement à la maison sans matériel ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, de nombreux exercices au poids du corps comme les squats, fentes, pompes ou gainages sont très efficaces pour se muscler à la maison, surtout pour les débutantes.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quel est le meilleur programme de musculation pour une femme débutante ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Un bon programme débutante inclut 3 séances par semaine avec des exercices pour le bas du corps, le haut du corps et le gainage, accompagnés de temps de repos adaptés.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Faut-il suivre un régime alimentaire spécial en musculation ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, une alimentation équilibrée riche en protéines, légumes, glucides complexes et bons lipides est essentielle pour soutenir les entraînements et favoriser la progression musculaire.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

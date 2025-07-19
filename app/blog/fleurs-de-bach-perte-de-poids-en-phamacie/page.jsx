@@ -1,9 +1,10 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Fleurs de Bach Perte de Poids en Pharmacie : Guide Complet et Avis",
+  title:
+    "Fleurs de Bach Perte de Poids en Pharmacie (2025) : Efficacité, Prix & Astuces",
   description:
-    "Découvrez comment les Fleurs de Bach agissent sur les émotions liées à la prise de poids. Où les acheter en pharmacie, comment les utiliser, et quels résultats attendre ? Suivez notre guide.",
+    "Découvrez en 2025 comment les Fleurs de Bach peuvent vous aider à perdre du poids en agissant sur les émotions. Où les acheter en pharmacie, prix, avis, et conseils pratiques pour des résultats visibles.",
 };
 
 function BlogPost8() {
@@ -391,6 +392,42 @@ function BlogPost8() {
         </a>
         , souvent cité dans les forums santé.
       </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Peut-on trouver les fleurs de Bach pour maigrir en pharmacie ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Oui, les fleurs de Bach sont disponibles dans de nombreuses pharmacies, en ligne et en magasin. Il est toutefois recommandé de vérifier que ce sont des élixirs originaux et certifiés, souvent vendus sous forme de gouttes ou de spray.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quel est le prix des fleurs de Bach en pharmacie ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Le prix varie généralement entre 10 et 20 euros par flacon, selon la marque et le point de vente. Certaines pharmacies proposent des coffrets ou des mélanges personnalisés, ce qui peut influencer le tarif.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Les fleurs de Bach sont-elles efficaces pour perdre du poids ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Elles ne font pas maigrir directement mais aident à réguler les émotions responsables de la prise de poids (grignotages, stress, impulsivité). En complément d’un mode de vie sain, elles peuvent améliorer les résultats de manière naturelle.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

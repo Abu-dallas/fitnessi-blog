@@ -2,14 +2,48 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Banc de Musculation : Guide Complet 2025 pour Bien Choisir",
+  title: "Banc de Musculation : Guide Achat + Exercices Maison (2025)",
   description:
-    "Découvrez les meilleurs bancs de musculation : types, conseils d’achat, exercices, prix et erreurs à éviter pour un entraînement efficace à domicile.",
+    "Choisissez le bon banc de muscu pour vos entraînements à la maison. Conseils, modèles, exercices recommandés.",
 };
 
 function BlogPost5() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Quel est le meilleur banc de musculation pour débutant ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Pour les débutants, un banc inclinable avec support pour haltères est recommandé pour sa polyvalence et sa facilité d'utilisation.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Peut-on utiliser un banc de musculation tous les jours ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Non, il est conseillé de laisser au moins un jour de repos entre les séances pour permettre à vos muscles de récupérer.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Quels exercices peut-on faire avec un banc de musculation ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Vous pouvez faire des développés couchés, des développés inclinés, des curls, des extensions triceps, et bien plus.",
+        },
+      },
+    ],
+  };
   return (
     <div className="w-full md:flex md:flex-col items-center justify-center">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="w-full px-4 mt-18 md:w-[70%]">
         <h1 className="pt-6 text-3xl text-black font-bold">
           Banc de Musculation : Guide Complet pour Bien Choisir et S’entraîner
