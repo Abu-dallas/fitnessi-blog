@@ -7,20 +7,20 @@ function Footer() {
     <div className="bg-black py-4 px-4 flex flex-col md:items-center lg:justify-center mt-16">
       <div>
         <p className="text-xl font-bold text-slate-200 mb-6 uppercase">
-          Assistance et support
+          Assistance and support
         </p>
         <div className="flex flex-col gap-3">
           <Link className="text-slate-400" href="#">
             FAQ
           </Link>
           <Link className="text-slate-400" href="#">
-            Conditions générales
+            Terms and conditions
           </Link>
           <Link className="text-slate-400" href="#">
-            Politique de cookies
+            Policie and cookies
           </Link>
           <Link className="text-slate-400" href="#">
-            Contactez-nous
+            Contact us
           </Link>
         </div>
         <div className="flex gap-8 p-6 w-full items-center md:px-0 justify-center">

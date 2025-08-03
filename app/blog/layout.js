@@ -9,9 +9,13 @@ export const metadata = {
 
 export default function BlogLayout({ children }) {
   return (
-    <div>
-      <HeaderWrapper />
-      {children}
-    </div>
+    <html lang="fr">
+      <body>
+        <div>
+          <HeaderWrapper />
+          {children}
+        </div>
+      </body>
+    </html>
   );
 }

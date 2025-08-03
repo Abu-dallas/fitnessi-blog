@@ -2,14 +2,14 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "Fitnessi - Santé, Fitness et Bien-être au Quotidien",
+  title: "Fitnessi - is an online tools provider and fitness guider",
   description:
-    "Découvrez Fitnessi : votre source d'inspiration pour adopter un mode de vie sain. Conseils sur le fitness, la nutrition et le bien-être chaque jour.",
+    "Discover a professional and advance tools that can help you and facilitate your work, such as calculators, coverters, generators and other online tools.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body>
         {children}
         <Footer />
