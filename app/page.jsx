@@ -3,9 +3,29 @@ import Link from "next/link";
 import HeaderWrapper from "@/components/HeaderWrapper";
 
 export const metadata = {
-  title: "Home - Fitnessi",
+  title: "Fitness | Free Tools, Calculators & Expert Guides",
   description:
-    "Lisez nos articles sur la santé, le fitness et le bien-être pour rester en forme chaque jour.",
+    "Explore a wide range of free online tools, calculators, and expert fitness guides. Whether you're tracking workouts, calculating macros, or solving everyday tasks, Fitness helps you stay productive and healthy.",
+  keywords: [
+    "fitness tools",
+    "online calculators",
+    "workout planner",
+    "macro calculator",
+    "BMI calculator",
+    "health guides",
+    "daily tools",
+    "free online tools",
+    "fitness resources",
+    "weight loss tools",
+  ],
+  openGraph: {
+    title: "Fitness | Free Tools, Calculators & Expert Guides",
+    description:
+      "Discover top free online tools and fitness resources to improve your health, track progress, and stay motivated. All in one place — Fitness.",
+    url: "https://fitnessi.top", // replace with your actual domain
+    siteName: "Fitness",
+    type: "website",
+  },
 };
 
 function HomePage() {
