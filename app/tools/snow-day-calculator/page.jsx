@@ -45,7 +45,7 @@ function SnowDay() {
       <div className="w-full items-center justify-center lg:flex">
         <div className="py-12 lg:max-w-lg px-4 ">
           <h1 className="text-4xl font-bold text-black text-center lg:max-w-lg">
-            How Possible it is to Have a Snow Day Tomorrow?
+            Snow Day Calculator
           </h1>
           <p className="text-slate-700 text-md mt-3">
             An advance snow day calculator created by Fitnessi will provide an

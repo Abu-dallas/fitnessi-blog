@@ -103,7 +103,7 @@ export default function SnowDayCalculator() {
     <div className="mb-12 flex flex-col items-center p-4 ">
       <form
         onSubmit={handleSubmit}
-        className="bg-white w-full md:max-w-lg border-1 border-slate-200 rounded-xl p-6 space-y-4"
+        className="bg-white w-full md:max-w-lg border-1 border-slate-300 rounded-xl p-6 space-y-4"
       >
         <h1 className="text-3xl max-sm:text-2xl font-bold text-center text-black my-6 mb-8">
           ❄️ Snow Day Calculator

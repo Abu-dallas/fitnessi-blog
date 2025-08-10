@@ -45,8 +45,8 @@ const NavLinks = [
     href: "/",
   },
   {
-    title: "Blog",
-    href: "/blog",
+    title: "Tools",
+    href: "/tools",
   },
   {
     title: "About",

@@ -33,59 +33,28 @@ function HomePage() {
     <div>
       <HeaderWrapper />
       <div className="w-full flex items-center justify-center mt-18 flex-col">
-        <p className="text-slates-800 font-semibold text-xl px-4 py-6">
-          Lisez nos articles sur la santé, le fitness et le bien-être pour
-          rester en forme chaque jour.
-        </p>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 px-2 max-sm:my-12 lg:w-[70%]">
-          {posts.map((item, index) => (
-            <Link
-              href={`/blog/${item.slug}`}
-              key={index}
-              className="flex items-center justify-between hover:bg-cyan-100 px-4 bg-slate-50 rounded-lg gap-2"
-            >
-              <div className="flex-1 flex py-4 justify-center flex-col gap-3">
-                <span className="font-bold text-sm text-slate-500">
-                  {item.date}
-                </span>
-                <h1 className="text-slate-800 font-bold text-xl">
-                  {item.title}
-                </h1>
-                <p className="text-slate-700 text-sm line-clamp-2">
-                  {item.body}
-                </p>
-                <div className="flex gap-3">
-                  {item.tags.map((chip, index) => (
-                    <span
-                      className={`text-sm px-1.5 py-0.5 rounded font-semibold text-slate-700 ${
-                        Colors[index % Colors.length]
-                      }`}
-                      key={index}
-                    >
-                      {chip}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <div className="py-4">
-                <Image
-                  src={item.image}
-                  alt="images"
-                  width={2000}
-                  height={2000}
-                  className="w-[170px] h-[180px] max-sm:w-[140px] max-sm:h-[150px] rounded-lg"
-                />
-              </div>
-            </Link>
-          ))}
-        </div>
-        <div className="mt-14">
-          <Link
-            className="text-sm px-2.5 py-1 rounded font-semibold text-white bg-blue-400"
-            href="/blog"
-          >
-            See all
-          </Link>
+        <h1 className="text-slates-800 font-bold text-xl px-4 py-6">
+          Fitnessi Online Tools Website
+        </h1>
+        <div className="w-full lg:w-[70%]">
+          <p className="px-4">
+            Welcome to Fitnessi – Your All-in-One Online Tool Hub Fitnessi is
+            your go-to destination for smart, easy-to-use online tools designed
+            to make everyday tasks faster and simpler. From handy calculators
+            and accurate converters to specialized utilities that save you time,
+            our platform offers a wide variety of solutions in one place.
+            Whether you need to calculate, convert, or find quick answers,
+            Fitnessi delivers reliable results instantly, right in your browser.
+            No downloads, no hassle – just quick, accurate, and user-friendly
+            tools at your fingertips. Empowering Your Productivity Anytime,
+            Anywhere We built Fitnessi with one goal: to help you work smarter,
+            not harder. Our tools are optimized for speed, accuracy, and
+            simplicity, so you can focus on what matters most. Whether you’re a
+            student, professional, or casual user, you’ll find the right tool
+            for your needs – all available for free and accessible on any
+            device. At Fitnessi, we believe in making technology work for you,
+            turning complex tasks into simple clicks.
+          </p>
         </div>
       </div>
     </div>
@@ -94,7 +63,8 @@ function HomePage() {
 
 export default HomePage;
 
-const posts = [
+{
+  /*const posts = [
   {
     title: "banc de musculation",
     body: "Le banc de musculation est sans doute l’un des équipements les plus emblématiques et indispensables dans l’univers du fitness et de la musculation. Sa popularité s'explique par sa grande polyvalence : il s’adapte à tous les niveaux, du débutant qui découvre les bases de l'entraînement en résistance, jusqu’au pratiquant confirmé qui cherche à développer sa force, sa masse musculaire ou à améliorer sa définition.",
@@ -143,12 +113,12 @@ const posts = [
     tags: ["musculation", "poids", "machine"],
     image: "/fit/benchpress.jpg",
   },
-];
-
-const Colors = [
+]; const Colors = [
   "bg-red-200",
   "bg-green-200",
   "bg-blue-200",
   "bg-slate-200",
   "bg-indigo-200",
 ];
+*/
+}
