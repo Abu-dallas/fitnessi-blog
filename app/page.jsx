@@ -1,28 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeaderWrapper from "@/components/HeaderWrapper";
-
 export const metadata = {
-  title: "Fitness | Free Tools, Calculators & Expert Guides",
+  title: "Fitness | Outils Gratuits, Calculateurs & Guides Experts",
   description:
-    "Explore a wide range of free online tools, calculators, and expert fitness guides. Whether you're tracking workouts, calculating macros, or solving everyday tasks, Fitness helps you stay productive and healthy.",
+    "Découvrez une large gamme d’outils en ligne gratuits, de calculateurs et de guides fitness experts. Que vous suiviez vos entraînements, calculiez vos macros ou résolviez des tâches quotidiennes, Fitness vous aide à rester productif et en bonne santé.",
   keywords: [
-    "fitness tools",
-    "online calculators",
-    "workout planner",
-    "macro calculator",
-    "BMI calculator",
-    "health guides",
-    "daily tools",
-    "free online tools",
-    "fitness resources",
-    "weight loss tools",
+    "outils fitness",
+    "calculateurs en ligne",
+    "planificateur d'entraînement",
+    "calculateur de macros",
+    "calculateur IMC",
+    "guides santé",
+    "outils quotidiens",
+    "outils gratuits en ligne",
+    "ressources fitness",
+    "outils perte de poids",
   ],
   openGraph: {
-    title: "Fitness | Free Tools, Calculators & Expert Guides",
+    title: "Fitness | Outils Gratuits, Calculateurs & Guides Experts",
     description:
-      "Discover top free online tools and fitness resources to improve your health, track progress, and stay motivated. All in one place — Fitness.",
-    url: "https://fitnessi.top", // replace with your actual domain
+      "Découvrez les meilleurs outils en ligne gratuits et ressources fitness pour améliorer votre santé, suivre vos progrès et rester motivé. Tout en un seul endroit — Fitness.",
+    url: "https://fitnessi.top", // remplacez par votre domaine réel
     siteName: "Fitness",
     type: "website",
   },
@@ -34,26 +33,31 @@ function HomePage() {
       <HeaderWrapper />
       <div className="w-full flex items-center justify-center mt-18 flex-col">
         <h1 className="text-slates-800 font-bold text-xl px-4 py-6">
-          Fitnessi Online Tools Website
+          Site d'Outils en Ligne Fitnessi
         </h1>
         <div className="w-full lg:w-[70%]">
           <p className="px-4">
-            Welcome to Fitnessi – Your All-in-One Online Tool Hub Fitnessi is
-            your go-to destination for smart, easy-to-use online tools designed
-            to make everyday tasks faster and simpler. From handy calculators
-            and accurate converters to specialized utilities that save you time,
-            our platform offers a wide variety of solutions in one place.
-            Whether you need to calculate, convert, or find quick answers,
-            Fitnessi delivers reliable results instantly, right in your browser.
-            No downloads, no hassle – just quick, accurate, and user-friendly
-            tools at your fingertips. Empowering Your Productivity Anytime,
-            Anywhere We built Fitnessi with one goal: to help you work smarter,
-            not harder. Our tools are optimized for speed, accuracy, and
-            simplicity, so you can focus on what matters most. Whether you’re a
-            student, professional, or casual user, you’ll find the right tool
-            for your needs – all available for free and accessible on any
-            device. At Fitnessi, we believe in making technology work for you,
-            turning complex tasks into simple clicks.
+            Bienvenue sur Fitnessi – votre plateforme tout-en-un d’outils en
+            ligne. Fitnessi est votre destination idéale pour des outils en
+            ligne intelligents et faciles à utiliser, conçus pour rendre les
+            tâches quotidiennes plus rapides et simples. Des calculateurs
+            pratiques aux convertisseurs précis, en passant par des utilitaires
+            spécialisés qui vous font gagner du temps, notre plateforme propose
+            une large gamme de solutions réunies en un seul endroit. Que vous
+            ayez besoin de calculer, convertir ou trouver rapidement des
+            réponses, Fitnessi vous fournit des résultats fiables
+            instantanément, directement dans votre navigateur. Pas de
+            téléchargements, pas de complications – simplement des outils
+            rapides, précis et faciles à utiliser à portée de main. Nous avons
+            créé Fitnessi dans un seul but : vous aider à travailler plus
+            intelligemment, pas plus dur. Nos outils sont optimisés pour la
+            rapidité, la précision et la simplicité, afin que vous puissiez vous
+            concentrer sur l’essentiel. Que vous soyez étudiant, professionnel
+            ou utilisateur occasionnel, vous trouverez l’outil adapté à vos
+            besoins – tous disponibles gratuitement et accessibles depuis
+            n’importe quel appareil. Chez Fitnessi, nous croyons en une
+            technologie au service de l’utilisateur, transformant les tâches
+            complexes en simples clics.
           </p>
         </div>
       </div>

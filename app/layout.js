@@ -2,14 +2,14 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "Fitnessi - is an online tools provider and fitness guider",
+  title: "Fitnessi - Votre guide fitness et fournisseur d'outils en ligne",
   description:
-    "Discover a professional and advance tools that can help you and facilitate your work, such as calculators, coverters, generators and other online tools.",
+    "Découvrez des outils en ligne professionnels et avancés pour vous faciliter la vie, tels que des calculateurs, convertisseurs, générateurs et bien d'autres outils utiles.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body>
         {children}
         <Footer />

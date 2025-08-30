@@ -49,5 +49,9 @@ const NavLinks = [
     title: "About",
     href: "/about",
   },
+  {
+    title: "Calculatrice",
+    href: "/calculatrice",
+  },
 ];
 export default Navbar;
